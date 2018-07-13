@@ -1,4 +1,4 @@
-var socket=io.connect("process.env.PORT || 5000");
+var socket=io.connect('https://msgsapp.herokuapp.com');
 
 var message= document.getElementById("message");
 var Name= document.getElementById("Name");
